@@ -49,6 +49,4 @@ npm run preview
 
 ## Live Links & Resources
 
-- Live demo: not deployed yet (run locally via steps above).
-- Data file: public/customersInfo.json
-- Vite docs: https://vitejs.dev/ | React docs: https://react.dev/
+- Live demo: https://dapper-dragon-1506d9.netlify.app/
