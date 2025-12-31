@@ -1,6 +1,6 @@
-# Assignment 7 - React Customer Management App
+# Assignment 7 - React Ticket Support System
 
-A React + Vite application for managing customer information and cart operations.
+A React + Vite application for managing customer support tickets and tracking ticket status.
 
 ## Project Structure
 
@@ -21,11 +21,11 @@ src/
 ## Features
 
 - **Navigation Bar** - Header navigation component
-- **Banner** - Hero section
-- **Cart Management** - Shopping cart functionality
-- **Task Status** - Display task status information
+- **Banner** - Hero/welcome section
+- **Ticket Cart** - Shopping cart-style ticket management
+- **Task/Ticket Status** - Display ticket status and tracking information
 - **Footer** - Footer section
-- **Customer Data** - Loads customer information from JSON
+- **Customer Ticket Data** - Loads customer support tickets from JSON
 
 ## Getting Started
 
@@ -68,4 +68,4 @@ npm run preview
 
 ## Data
 
-Customer information is loaded from `public/customersInfo.json`
+Customer support tickets are loaded from `public/customersInfo.json`
