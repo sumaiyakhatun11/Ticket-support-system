@@ -1,71 +1,54 @@
 # Assignment 7 - React Ticket Support System
 
-A React + Vite application for managing customer support tickets and tracking ticket status.
+React + Vite app for browsing customer support tickets, managing a cart-like queue, and tracking ticket status in a streamlined UI.
 
-## Project Structure
+## Overview
 
-```
-src/
-├── components/
-│   ├── Banner/        - Main banner section
-│   ├── CartSection/   - Shopping cart functionality
-│   ├── Navbar/        - Navigation bar
-│   ├── TaskStatusSection/ - Task status display
-│   └── FotterSection/ - Footer component
-├── App.jsx           - Main application component
-├── main.jsx          - Application entry point
-├── App.css           - Application styles
-└── index.css         - Global styles
-```
+- Purpose: manage customer support tickets with quick navigation, cart-style selection, and status tracking.
+- Audience: support agents or learners practicing React state management and UI composition.
+- Data source: static JSON dataset at public/customersInfo.json.
 
-## Features
+## Tech Stack
 
-- **Navigation Bar** - Header navigation component
-- **Banner** - Hero/welcome section
-- **Ticket Cart** - Shopping cart-style ticket management
-- **Task/Ticket Status** - Display ticket status and tracking information
-- **Footer** - Footer section
-- **Customer Ticket Data** - Loads customer support tickets from JSON
+- React 19 + React DOM 19
+- Vite 7 (dev/build tooling)
+- Tailwind CSS 4 + DaisyUI (styling)
+- React Icons, React Toastify (UI utilities)
+- ESLint 9 (linting)
 
-## Getting Started
+## Core Features
 
-### Prerequisites
-- Node.js (v14 or higher)
-- npm or yarn
+- Navigation bar and hero banner for quick context.
+- Ticket cart to collect/select tickets for action.
+- Task/ticket status display to visualize current progress.
+- Footer with supporting links/info.
+- Static customer data loaded from public/customersInfo.json.
 
-### Installation
+## Dependencies
 
+- Runtime: @tailwindcss/vite, react, react-dom, react-icons, react-toastify, tailwindcss
+- Dev: @eslint/js, @types/react, @types/react-dom, @vitejs/plugin-react, daisyui, eslint, eslint-plugin-react-hooks, eslint-plugin-react-refresh, globals, vite
+
+## Run Locally (step-by-step)
+
+1) Install Node.js 14+ and npm.
+2) Install packages: 
 ```bash
 npm install
 ```
-
-### Development Server
-
+3) Start dev server:
 ```bash
 npm run dev
 ```
-
-The application will be available at `http://localhost:5173`
-
-### Build for Production
-
+4) Open http://localhost:5173 in your browser.
+5) Optional: production build & preview
 ```bash
 npm run build
-```
-
-### Preview Production Build
-
-```bash
 npm run preview
 ```
 
-## Technology Stack
+## Live Links & Resources
 
-- **React** - UI library
-- **Vite** - Build tool and dev server
-- **ESLint** - Code quality tool
-- **CSS** - Styling
-
-## Data
-
-Customer support tickets are loaded from `public/customersInfo.json`
+- Live demo: not deployed yet (run locally via steps above).
+- Data file: public/customersInfo.json
+- Vite docs: https://vitejs.dev/ | React docs: https://react.dev/
